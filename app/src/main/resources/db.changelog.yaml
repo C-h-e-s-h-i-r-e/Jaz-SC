@@ -1,9 +1,17 @@
 databaseChangeLog:
   - changeSet:
-      id: 20201012_init.sql
-      author: Paweł Janowiak
+      id: 20201211_add_user.sql
+      author: Aleksander Bober
       sqlFile:
         relativeToChangelogFile: true
         stripComments: true
         splitStatements: false
-        path: db.changelog/20201012_init.sql
+        path: db.changelog/20201211_add_user.sql
+  - changeSet:
+      id: 20210120_init_zad4v5.sql
+      author: Aleksander Bober
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20210120_init_zad4v5.sql
